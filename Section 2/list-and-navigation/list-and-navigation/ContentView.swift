@@ -13,8 +13,14 @@ struct ContentView: View {
     let hikes = Hike.all()
     
     var body: some View {
-        List(self.hikes, id: \.name){ hike in
-            HikeCell(hike: hike)
+        NavigationView {
+            List(self.hikes, id: \.name){ hike in
+                NavigationLink(destination: Text(hike.name)) {
+                    HikeCell(hike: hike)
+                }
+            }
+                
+            .navigationBarTitle("Hiking")
         }
     }
 }
