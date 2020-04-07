@@ -15,6 +15,7 @@
 		8D2A2F84243C8FFD00A70E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2A2F82243C8FFD00A70E91 /* LaunchScreen.storyboard */; };
 		8D2A2F8F243C8FFD00A70E91 /* list_and_navigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2A2F8E243C8FFD00A70E91 /* list_and_navigationTests.swift */; };
 		8D2A2F9B243C905C00A70E91 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2A2F9A243C905C00A70E91 /* Hike.swift */; };
+		8D2A2F9D243CA2AA00A70E91 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2A2F9C243CA2AA00A70E91 /* HikeDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		8D2A2F8E243C8FFD00A70E91 /* list_and_navigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = list_and_navigationTests.swift; sourceTree = "<group>"; };
 		8D2A2F90243C8FFD00A70E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D2A2F9A243C905C00A70E91 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		8D2A2F9C243CA2AA00A70E91 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				8D2A2F77243C8FFC00A70E91 /* AppDelegate.swift */,
 				8D2A2F79243C8FFC00A70E91 /* SceneDelegate.swift */,
 				8D2A2F7B243C8FFC00A70E91 /* ContentView.swift */,
+				8D2A2F9C243CA2AA00A70E91 /* HikeDetail.swift */,
 				8D2A2F7D243C8FFD00A70E91 /* Assets.xcassets */,
 				8D2A2F82243C8FFD00A70E91 /* LaunchScreen.storyboard */,
 				8D2A2F85243C8FFD00A70E91 /* Info.plist */,
@@ -223,6 +226,7 @@
 				8D2A2F7A243C8FFC00A70E91 /* SceneDelegate.swift in Sources */,
 				8D2A2F9B243C905C00A70E91 /* Hike.swift in Sources */,
 				8D2A2F7C243C8FFC00A70E91 /* ContentView.swift in Sources */,
+				8D2A2F9D243CA2AA00A70E91 /* HikeDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
