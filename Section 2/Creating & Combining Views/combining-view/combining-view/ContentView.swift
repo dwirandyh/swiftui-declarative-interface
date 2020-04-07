@@ -11,6 +11,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .center){
+            
+            Image("background")
+                .resizable() // to make this image resizeable
+                .aspectRatio(contentMode: .fit)
+                .cornerRadius(20)
+                .padding()
+//                .clipShape(Circle())
+            
+            
             Text("First Line")
                 .font(.largeTitle)
                 .foregroundColor(.green)
