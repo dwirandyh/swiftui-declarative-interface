@@ -14,6 +14,8 @@
 		8D0EA3CE243CC806004EFE4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0EA3CD243CC806004EFE4C /* Preview Assets.xcassets */; };
 		8D0EA3D1243CC806004EFE4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0EA3CF243CC806004EFE4C /* LaunchScreen.storyboard */; };
 		8D0EA3DC243CC806004EFE4C /* building_grid_layoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EA3DB243CC806004EFE4C /* building_grid_layoutTests.swift */; };
+		8D0EA3E7243CCDA7004EFE4C /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EA3E6243CCDA7004EFE4C /* Dish.swift */; };
+		8D0EA3E9243CCFE4004EFE4C /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EA3E8243CCFE4004EFE4C /* Array+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		8D0EA3D7243CC806004EFE4C /* building-grid-layoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "building-grid-layoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0EA3DB243CC806004EFE4C /* building_grid_layoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = building_grid_layoutTests.swift; sourceTree = "<group>"; };
 		8D0EA3DD243CC806004EFE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0EA3E6243CCDA7004EFE4C /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		8D0EA3E8243CCFE4004EFE4C /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +86,12 @@
 				8D0EA3C4243CC805004EFE4C /* AppDelegate.swift */,
 				8D0EA3C6243CC805004EFE4C /* SceneDelegate.swift */,
 				8D0EA3C8243CC805004EFE4C /* ContentView.swift */,
+				8D0EA3E6243CCDA7004EFE4C /* Dish.swift */,
 				8D0EA3CA243CC806004EFE4C /* Assets.xcassets */,
 				8D0EA3CF243CC806004EFE4C /* LaunchScreen.storyboard */,
 				8D0EA3D2243CC806004EFE4C /* Info.plist */,
 				8D0EA3CC243CC806004EFE4C /* Preview Content */,
+				8D0EA3E8243CCFE4004EFE4C /* Array+Extension.swift */,
 			);
 			path = "building-grid-layout";
 			sourceTree = "<group>";
@@ -209,6 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D0EA3C5243CC805004EFE4C /* AppDelegate.swift in Sources */,
+				8D0EA3E9243CCFE4004EFE4C /* Array+Extension.swift in Sources */,
+				8D0EA3E7243CCDA7004EFE4C /* Dish.swift in Sources */,
 				8D0EA3C7243CC805004EFE4C /* SceneDelegate.swift in Sources */,
 				8D0EA3C9243CC805004EFE4C /* ContentView.swift in Sources */,
 			);
