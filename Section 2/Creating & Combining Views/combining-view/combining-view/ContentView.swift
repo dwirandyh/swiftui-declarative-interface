@@ -10,9 +10,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack{
+        VStack(alignment: .center){
             Text("First Line")
+                .font(.largeTitle)
+                .foregroundColor(.green)
+            
             Text("Second Line")
+                .font(.largeTitle)
+                .foregroundColor(.orange)
+            
+            HStack {
+                Text("Left Side")
+                    .padding(.all)
+                Text("Right Side")
+                    .padding(.all)
+            }
         }
     }
 }
