@@ -14,6 +14,9 @@
 		8D34F98D243DBAF2004B3FE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D34F98C243DBAF2004B3FE1 /* Preview Assets.xcassets */; };
 		8D34F990243DBAF2004B3FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D34F98E243DBAF2004B3FE1 /* LaunchScreen.storyboard */; };
 		8D34F99B243DBAF2004B3FE1 /* Hello_StateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D34F99A243DBAF2004B3FE1 /* Hello_StateTests.swift */; };
+		8D34F9A6243DBCEE004B3FE1 /* SimpleStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D34F9A5243DBCEE004B3FE1 /* SimpleStateView.swift */; };
+		8D34F9AA243DBE06004B3FE1 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D34F9A9243DBE06004B3FE1 /* Task.swift */; };
+		8D34F9AD243DBE71004B3FE1 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D34F9AC243DBE71004B3FE1 /* TaskListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		8D34F996243DBAF2004B3FE1 /* Hello StateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello StateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D34F99A243DBAF2004B3FE1 /* Hello_StateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_StateTests.swift; sourceTree = "<group>"; };
 		8D34F99C243DBAF2004B3FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D34F9A5243DBCEE004B3FE1 /* SimpleStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStateView.swift; sourceTree = "<group>"; };
+		8D34F9A9243DBE06004B3FE1 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		8D34F9AC243DBE71004B3FE1 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 		8D34F982243DBAF1004B3FE1 /* Hello State */ = {
 			isa = PBXGroup;
 			children = (
+				8D34F9A8243DBDDA004B3FE1 /* List With State */,
+				8D34F9A7243DBDCF004B3FE1 /* SImple State */,
 				8D34F983243DBAF1004B3FE1 /* AppDelegate.swift */,
 				8D34F985243DBAF1004B3FE1 /* SceneDelegate.swift */,
 				8D34F987243DBAF1004B3FE1 /* ContentView.swift */,
@@ -105,6 +113,31 @@
 				8D34F99C243DBAF2004B3FE1 /* Info.plist */,
 			);
 			path = "Hello StateTests";
+			sourceTree = "<group>";
+		};
+		8D34F9A7243DBDCF004B3FE1 /* SImple State */ = {
+			isa = PBXGroup;
+			children = (
+				8D34F9A5243DBCEE004B3FE1 /* SimpleStateView.swift */,
+			);
+			path = "SImple State";
+			sourceTree = "<group>";
+		};
+		8D34F9A8243DBDDA004B3FE1 /* List With State */ = {
+			isa = PBXGroup;
+			children = (
+				8D34F9AB243DBE64004B3FE1 /* Models */,
+				8D34F9AC243DBE71004B3FE1 /* TaskListView.swift */,
+			);
+			path = "List With State";
+			sourceTree = "<group>";
+		};
+		8D34F9AB243DBE64004B3FE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D34F9A9243DBE06004B3FE1 /* Task.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +243,10 @@
 			files = (
 				8D34F984243DBAF1004B3FE1 /* AppDelegate.swift in Sources */,
 				8D34F986243DBAF1004B3FE1 /* SceneDelegate.swift in Sources */,
+				8D34F9AA243DBE06004B3FE1 /* Task.swift in Sources */,
+				8D34F9A6243DBCEE004B3FE1 /* SimpleStateView.swift in Sources */,
 				8D34F988243DBAF1004B3FE1 /* ContentView.swift in Sources */,
+				8D34F9AD243DBE71004B3FE1 /* TaskListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

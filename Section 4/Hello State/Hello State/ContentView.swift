@@ -13,16 +13,7 @@ struct ContentView: View {
     @State var name: String = "Dwi Randy H"
     
     var body: some View {
-        VStack() {
-            Text(self.name)
-            
-            Button(action: {
-                self.name = "Randy"
-            }) {
-                Text("Change Title")
-            }
-            .padding()
-        }
+        SimpleStateView()
     }
 }
 
