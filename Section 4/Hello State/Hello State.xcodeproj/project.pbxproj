@@ -17,6 +17,8 @@
 		8D34F9A6243DBCEE004B3FE1 /* SimpleStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D34F9A5243DBCEE004B3FE1 /* SimpleStateView.swift */; };
 		8D34F9AA243DBE06004B3FE1 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D34F9A9243DBE06004B3FE1 /* Task.swift */; };
 		8D34F9AD243DBE71004B3FE1 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D34F9AC243DBE71004B3FE1 /* TaskListView.swift */; };
+		8D34F9B1243DC0B9004B3FE1 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D34F9B0243DC0B9004B3FE1 /* Dish.swift */; };
+		8D34F9B3243DC338004B3FE1 /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D34F9B2243DC338004B3FE1 /* FoodListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8D34F9A5243DBCEE004B3FE1 /* SimpleStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStateView.swift; sourceTree = "<group>"; };
 		8D34F9A9243DBE06004B3FE1 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		8D34F9AC243DBE71004B3FE1 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		8D34F9B0243DC0B9004B3FE1 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		8D34F9B2243DC338004B3FE1 /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +89,9 @@
 		8D34F982243DBAF1004B3FE1 /* Hello State */ = {
 			isa = PBXGroup;
 			children = (
-				8D34F9A8243DBDDA004B3FE1 /* List With State */,
 				8D34F9A7243DBDCF004B3FE1 /* SImple State */,
+				8D34F9A8243DBDDA004B3FE1 /* List With State */,
+				8D34F9AE243DC089004B3FE1 /* Filter State */,
 				8D34F983243DBAF1004B3FE1 /* AppDelegate.swift */,
 				8D34F985243DBAF1004B3FE1 /* SceneDelegate.swift */,
 				8D34F987243DBAF1004B3FE1 /* ContentView.swift */,
@@ -136,6 +141,23 @@
 			isa = PBXGroup;
 			children = (
 				8D34F9A9243DBE06004B3FE1 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8D34F9AE243DC089004B3FE1 /* Filter State */ = {
+			isa = PBXGroup;
+			children = (
+				8D34F9AF243DC0A8004B3FE1 /* Models */,
+				8D34F9B2243DC338004B3FE1 /* FoodListView.swift */,
+			);
+			path = "Filter State";
+			sourceTree = "<group>";
+		};
+		8D34F9AF243DC0A8004B3FE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D34F9B0243DC0B9004B3FE1 /* Dish.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -243,7 +265,9 @@
 			files = (
 				8D34F984243DBAF1004B3FE1 /* AppDelegate.swift in Sources */,
 				8D34F986243DBAF1004B3FE1 /* SceneDelegate.swift in Sources */,
+				8D34F9B1243DC0B9004B3FE1 /* Dish.swift in Sources */,
 				8D34F9AA243DBE06004B3FE1 /* Task.swift in Sources */,
+				8D34F9B3243DC338004B3FE1 /* FoodListView.swift in Sources */,
 				8D34F9A6243DBCEE004B3FE1 /* SimpleStateView.swift in Sources */,
 				8D34F988243DBAF1004B3FE1 /* ContentView.swift in Sources */,
 				8D34F9AD243DBE71004B3FE1 /* TaskListView.swift in Sources */,
