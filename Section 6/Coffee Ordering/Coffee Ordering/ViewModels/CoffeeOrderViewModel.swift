@@ -10,7 +10,7 @@ import Foundation
 
 class CoffeeOrderViewModel: ObservableObject {
     
-     private var webService: WebService
+    private var webService: WebService
     
     var name: String = ""
     
